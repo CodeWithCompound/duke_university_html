@@ -1,4 +1,33 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
 h1 {
   color: blue;
   text-align: center;
+}
+#image_duke {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#txt_image {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.very_specific_table_class_because_i_lack_creativety {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-30%, -50%);
 }
